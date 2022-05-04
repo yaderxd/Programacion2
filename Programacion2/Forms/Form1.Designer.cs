@@ -59,6 +59,7 @@ namespace Programacion2
             this.Controls.Add(this.btnAceptar);
             this.Name = "Form1";
             this.Text = "Form1";
+            this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);
 
         }
