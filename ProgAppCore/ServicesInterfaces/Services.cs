@@ -4,11 +4,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ProgDomain.Interfaces
+namespace ProgAppCore.ServicesInterfaces
 {
-    public interface IModel<D>
+    public interface Services<D>
     {
-        D Extraccion(string d);
+        D Extracción(string d);
         void Add(D d);
 
         List<D> Read();

@@ -1,14 +1,14 @@
-﻿using System;
+﻿using ProgDomain;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ProgDomain.Interfaces
+namespace ProgAppCore.ServicesInterfaces
 {
-    public interface IModelServices : IModel<OpenWheather>
+    public interface OpenServices : Services<OpenWheather>
     {
         DateTime Tiempo(long o);
-    
     }
 }
