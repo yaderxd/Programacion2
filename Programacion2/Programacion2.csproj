@@ -83,19 +83,5 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\Common\Common.csproj">
-      <Project>{888c83e9-9dd0-46c4-9a93-085f748e5bed}</Project>
-      <Name>Common</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\Domain\Domain.csproj">
-      <Project>{a2c4dcc6-976e-471c-965f-f640749175aa}</Project>
-      <Name>Domain</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\Infraestructure\Infraestructure.csproj">
-      <Project>{dd76b1e6-c114-42c0-8f34-20b7575fa047}</Project>
-      <Name>Infraestructure</Name>
-    </ProjectReference>
-  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
