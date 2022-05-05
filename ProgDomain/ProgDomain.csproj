@@ -69,9 +69,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Entities\CityWheater.cs" />
     <Compile Include="Entities\OpenWheather.cs" />
     <Compile Include="Interfaces\IModel.cs" />
+    <Compile Include="Interfaces\IModelServices.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SubOpen\Clima.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="app.config" />

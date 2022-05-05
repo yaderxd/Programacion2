@@ -6,11 +6,9 @@ using System.Threading.Tasks;
 
 namespace ProgDomain.Interfaces
 {
-    interface IModel<D>
+    interface IModelServices : IModel<OpenWheather>
     {
-        D Extraccion(string d);
-        void Add(D d);
-
-        List<D> Read();
+        DateTime Tiempo(long o);
+    
     }
 }

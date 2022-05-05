@@ -57,6 +57,7 @@ namespace Programacion2
             // 
             // flowLayoutPanel1
             // 
+            this.flowLayoutPanel1.BackColor = System.Drawing.Color.Transparent;
             this.flowLayoutPanel1.Location = new System.Drawing.Point(12, 78);
             this.flowLayoutPanel1.Name = "flowLayoutPanel1";
             this.flowLayoutPanel1.Size = new System.Drawing.Size(776, 360);
@@ -64,6 +65,7 @@ namespace Programacion2
             // 
             // panel1
             // 
+            this.panel1.BackColor = System.Drawing.Color.Transparent;
             this.panel1.Controls.Add(this.cboTiempo);
             this.panel1.Controls.Add(this.btnAceptar);
             this.panel1.Location = new System.Drawing.Point(12, 12);
